@@ -2,6 +2,8 @@
 git.properties
 
 # Xcode
+.build
+.build/*
 build/*
 *.pbxuser
 !default.pbxuser
@@ -40,6 +42,15 @@ profile
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+.swiftpm
+.package.resolved
+.build/
+Packages/
+DerivedData/
 
 # Carthage
 #
